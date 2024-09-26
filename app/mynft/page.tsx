@@ -100,7 +100,7 @@ export default function UserNFTListing() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-[#1F2937] via-black to-gray-900 text-gray-100 py-8 px-4">
-      <motion.div900
+      <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
@@ -216,7 +216,7 @@ export default function UserNFTListing() {
             <Button variant="outline">Load More</Button>
           </CardFooter>
         </Card>
-      </motion.div900>
+      </motion.div>
     </div>
   )
 }
